@@ -1,0 +1,189 @@
+﻿   
+body{
+	color:#222222;
+	font-size:12pt;
+	background-color:#7fc7ff;/*495158; 87ceeb*/
+	/*b6aea7 background-image:url(images/bg1.jpg);*/
+	background-position:top center;
+	font-family: "Verdana";
+	overflow-y: scroll;
+	
+}
+
+
+
+.tcalc{
+	font-size:10pt;
+}
+
+
+input{
+	width:145px;
+	font-size:10pt;
+	border-radius:6px;
+	border:1px solid #000000;
+	text-align: center;
+}
+
+select{
+	width:165px;
+	font-size:10pt;
+	border-radius:6px;
+	border:1px solid #000000;
+}
+
+h1,h2,h3{
+	text-align:left;
+	margin-left:28px;
+	font-weight:normal;
+	
+	
+}
+
+h3{
+	font-size:17pt;
+}
+
+h4{
+	font-weight:normal;
+	font-size:13pt;
+	margin:0px;
+	padding:0px;
+}
+
+
+a{
+text-decoration:none;	
+}
+
+img{
+	cursor:pointer;
+}
+
+.block{
+	width:900px;
+	background-color:#FFFFFF;
+	clear:both;
+	border:0px solid #333333;
+	/*outline:10px solid rgba(255,255,255,.2);*/
+	padding:0px;
+	margin:0px;
+}   
+
+.zakaz{
+	color:#FFFFFF;
+	z-index:999;
+	border-radius:6px;
+	background-color:#3e4061;
+	position:fixed;
+	left:40%;
+	top:19%;
+	width:20%;
+	height:230px;
+	border:1px solid #333333;
+	outline:10px solid rgba(255,255,255,.2);
+}
+
+.rim{
+	cursor:pointer;
+}
+
+.rim u{
+	color:#101010;
+	background-color:#F4C430;
+	padding:5px;
+
+}
+
+.rim:hover{
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+
+.rim2{
+position:fixed;
+left:-200px;
+top:-200px;
+width:64px;
+height:64px;
+
+filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+.rim2:hover{
+filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+
+.tabl{
+	text-align:left;
+	color:#9adaff;
+	font-size:12pt;
+	/*text-align:justify;*/
+}
+.return{
+	width:300px;
+	float:right;
+	margin-right:30px;
+	margin-top:10px;
+	background-color:#F4C430;
+	text-align:center;
+	font-size:14pt;
+	padding:8px;
+	cursor:pointer;
+	
+	
+	/*font-weight: 600;*/
+}
+
+.return:hover{
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;
+}
+
+.mbtn:hover{
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;
+}
+
+
+.mbtn{
+	background-color:#7fc7ff;
+	color:#000000;
+	cursor:pointer;
+	font-size:12pt;
+	/*font-weight:700;*/
+	border-radius:0px;
+	border:0px solid #000000;
+	height:26px;
+	width:150px;
+	text-align:center;
+	margin-top:8px;
+	line-height:23px;
+}
+
+.mbtna{
+	color:#000000;
+	font-size:12pt;
+	background-color:#F4C430;
+	border-radius:0px;
+	border:0px solid #000000;
+	height:26px;
+	width:150px;
+	text-align:center;
+	vertical-align:bottom;
+	margin-top:8px;
+	line-height:23px;
+}
+
+
